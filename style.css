@@ -25,6 +25,7 @@ strong {
 }
 
 body {
+    max-width: 900px;
     width: 70%;
     padding: 30px;
     margin: 0 auto;
