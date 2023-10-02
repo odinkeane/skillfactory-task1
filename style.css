@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+    font-weight: 400;
+    list-style-type: none;
+}
+
+:root {
+    --back-color: #fbe3e8;
+    --page-color: #ebf6f5;
+    --main-text-color: #5cbdb9;
+    --text-color: #000;
+}
+
+html {
+    background-color: var(--back-color);
+    color: var(--text-color);
+    margin: 50px;
+}
+
+strong {
+    font-weight: 900;
+}
+
+body {
+    width: 70%;
+    padding: 30px;
+    margin: 0 auto;
+    background-color: var(--page-color);
+    border-radius: 20px;
+    box-shadow: 0px 0px 2px var(--main-text-color);
+}
+
+header {
+    padding: 20px;
+    font-size: 24px;
+}
+
+footer {
+    font-size: 0.8em;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+}
+
+footer p {
+    font-size: 1.5em;
+}
+
+hr {
+    color: #000;
+    margin: 40px 100px;
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+    margin: 12px;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+section:first-child {
+    margin: 30px;
+}
+
+.d-flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-flex-around {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.d-flex-evenly {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo {
+    gap: 10px;
+}
+
+.photo {
+    border-radius: 100%;
+    object-fit: cover;
+    width: 260px;
+    height: 260px;
+    box-shadow: 0px 0px 8px var(--main-text-color), 0px 0px 12px black;
+}
+
+.info-about-me {
+    width: 50%;
+}
+
+.facts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px;
+}
+
+.facts>div {
+    box-shadow: 0px 0px 4px var(--main-text-color);
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills>li {
+    padding: 5px 10px;
+    box-shadow: 0px 0px 2px var(--main-text-color);
+    margin: 4px;
+    border-radius: 5px;
+    text-shadow: 1px 1px 2px var(--main-text-color);
+}
+
+.hobbies {
+    list-style-type: none;
+}
+
+.developer-way {
+    font-size: 1.2em;
+    margin: 0px 50px;
+}
+
+.developer-way-list>li {
+    padding: 2px;
+}
+
+.developer-way-list>li::before {
+    content: "◉";
+    color: var(--main-text-color);
+    list-style-position: outside;
+}
