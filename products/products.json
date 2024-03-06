@@ -1,26 +1,31 @@
 {
     "products" : [
         {
+        "id": 1,
         "name": "Котик-космонавт",
         "url": "https://odinkeane.github.io/skillfactory-task1/products/1.jpg",
         "price": 4999
         },
         {
+        "id": 2,
         "name": "Котик-монах",
         "url": "https://odinkeane.github.io/skillfactory-task1/products/2.jpg",
         "price": 5699
         },
         {
+        "id": 3,
         "name": "Котик-палладин",
         "url": "https://odinkeane.github.io/skillfactory-task1/products/3.jpg",
         "price": 4599
         },
         {
+        "id": 4,
         "name": "Котик-космонавт 2",
         "url": "https://odinkeane.github.io/skillfactory-task1/products/4.jpg",
         "price": 4999
         },
         {
+        "id": 5,
         "name": "Космический котик",
         "url": "https://odinkeane.github.io/skillfactory-task1/products/5.jpg",
         "price": 5999
