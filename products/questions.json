@@ -1,0 +1,40 @@
+{
+    "questions": [
+        {
+            "question": "Сколько передаваемых параметров у функции function deleteArrow(col, rol)?",
+            "answers": [
+                0,
+                1,
+                2,
+                3
+            ]       
+        },
+        {
+            "question": "Как правильно настроить задний фон с помощью background-color через JavaScript для элемента element?",
+            "answers": [
+                "element.backgroundColor",
+                "element.style.background-color",
+                "element.style.backgroundColor",
+                "element.background-color"
+            ]       
+        },
+        {
+            "question": "Как правильно настроить задний фон с помощью background-color через JavaScript для элемента element?",
+            "answers": [
+                "element.backgroundColor",
+                "element.style.background-color",
+                "element.style.backgroundColor",
+                "element.background-color"
+            ]       
+        },
+        {
+            "question": "Какой тег отвечает за подключение JavaScript файла к HTML файлу?",
+            "answers": [
+                "link",
+                "script",
+                "load",
+                "connect"
+            ]       
+        }
+    ]
+}
