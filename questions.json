@@ -1,6 +1,7 @@
 {
     "questions": [
         {
+            "id": 1,
             "question": "Сколько передаваемых параметров у функции function deleteArrow(col, rol)?",
             "answers": [
                 0,
@@ -10,6 +11,7 @@
             ]       
         },
         {
+            "id": 2,
             "question": "Как правильно настроить задний фон с помощью background-color через JavaScript для элемента element?",
             "answers": [
                 "element.backgroundColor",
@@ -19,6 +21,7 @@
             ]       
         },
         {
+            "id": 3,
             "question": "Какой тег отвечает за подключение JavaScript файла к HTML файлу?",
             "answers": [
                 "link",
